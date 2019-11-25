@@ -1,11 +1,12 @@
 com/proto/Message$1.class
 com/proto/NoneOrBuilder.class
+com/github/server/Server.class
 com/proto/MessageProtos.class
+com/github/services/messagingService/MessageService.class
 com/proto/None$Builder.class
+com/github/client/Client.class
 com/proto/messageServiceGrpc$messageServiceMethodDescriptorSupplier.class
 com/proto/Message$Builder.class
-com/github/protobuf_messaging_client/MessageServer$1.class
-com/github/protobuf_messaging_client/MessageServer.class
 com/proto/None.class
 com/proto/messageServiceGrpc$messageServiceBaseDescriptorSupplier.class
 com/proto/None$1.class
@@ -14,6 +15,7 @@ com/proto/messageServiceGrpc.class
 com/proto/messageServiceGrpc$messageServiceBlockingStub.class
 com/github/support/Logger.class
 com/proto/messageServiceGrpc$MethodHandlers.class
+com/github/server/Server$1.class
 com/proto/messageServiceGrpc$messageServiceImplBase.class
 com/proto/messageServiceGrpc$messageServiceFutureStub.class
 com/proto/messageServiceGrpc$messageServiceStub.class

@@ -1,8 +1,10 @@
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/Message.java
+/home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/github/server/Server.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/github/support/Logger.java
+/home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/github/services/messagingService/MessageService.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/None.java
-/home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/github/protobuf_messaging_client/MessageServer.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/messageServiceGrpc.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/MessageOrBuilder.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/NoneOrBuilder.java
 /home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/proto/MessageProtos.java
+/home/patrick/eclipse-workspace/protobuf-messaging-server/src/main/java/com/github/client/Client.java
