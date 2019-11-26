@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.protobuf_messaging_client.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.protobuf_messaging_client.AppTest" time="0.019" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="exec.mainClass" value="com.github.server.Server"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire/surefirebooter6868678240765238797.jar /home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire 2019-11-25T21-40-33_236-jvmRun1 surefire2421459470696088942tmp surefire_0370934000353701560tmp"/>
+    <property name="sun.java.command" value="/home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire/surefirebooter14365169182578080871.jar /home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire 2019-11-26T19-46-17_936-jvmRun1 surefire5561259490798447428tmp surefire_05397258824232350942tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/patrick/eclipse-workspace/protobuf-messaging-server/target/test-classes:/home/patrick/eclipse-workspace/protobuf-messaging-server/target/classes:/home/patrick/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/patrick/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/patrick/.m2/repository/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-netty-shaded/1.25.0/grpc-netty-shaded-1.25.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-core/1.25.0/grpc-core-1.25.0.jar:/home/patrick/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/patrick/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/patrick/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/patrick/.m2/repository/io/opencensus/opencensus-api/0.21.0/opencensus-api-0.21.0.jar:/home/patrick/.m2/repository/io/opencensus/opencensus-contrib-grpc-metrics/0.21.0/opencensus-contrib-grpc-metrics-0.21.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-protobuf/1.25.0/grpc-protobuf-1.25.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-api/1.25.0/grpc-api-1.25.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-context/1.25.0/grpc-context-1.25.0.jar:/home/patrick/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar:/home/patrick/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/patrick/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/home/patrick/.m2/repository/com/google/guava/guava/28.1-android/guava-28.1-android.jar:/home/patrick/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/patrick/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/patrick/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/patrick/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/patrick/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.12.0/proto-google-common-protos-1.12.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-protobuf-lite/1.25.0/grpc-protobuf-lite-1.25.0.jar:/home/patrick/.m2/repository/io/grpc/grpc-stub/1.25.0/grpc-stub-1.25.0.jar:/home/patrick/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire/surefirebooter6868678240765238797.jar"/>
+    <property name="surefire.real.class.path" value="/home/patrick/eclipse-workspace/protobuf-messaging-server/target/surefire/surefirebooter14365169182578080871.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.4+11-post-Ubuntu-1ubuntu218.04.3"/>
     <property name="user.name" value="patrick"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testApp" classname="com.github.protobuf_messaging_client.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="com.github.protobuf_messaging_client.AppTest" time="0.001"/>
 </testsuite>

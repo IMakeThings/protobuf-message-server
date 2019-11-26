@@ -43,9 +43,17 @@ public class MessageService extends messageServiceImplBase {
 	@Override
 	public void receiveMessages(com.proto.Message request,
 	        io.grpc.stub.StreamObserver<com.proto.Message> responseObserver) {
-	      clients.add(new Client(responseObserver, request.getSender()));
+		Message joinMessage = Message.newBuilder()
+				.setSender(request.getSender())
+				.setMessage("has joined the chat!")
+				.build();
+		for(Client c: clients) {
+			c.receiveMessage(joinMessage);
+		}
+	    clients.add(new Client(responseObserver, request.getSender()));
 	      
-	      Logger.log(String.format("Client %s subscribed", request.getSender()));
+	      
+	    Logger.log(String.format("Client %s subscribed", request.getSender()));
 	}
 	
 	public void disconnect(com.proto.Message request,
@@ -53,6 +61,7 @@ public class MessageService extends messageServiceImplBase {
 		for(Client c: clients) {
 			if(c.getUserName().equals(request.getSender())) {
 				c.disconnect();
+				clients.remove(c);
 			}
 		}
 		
